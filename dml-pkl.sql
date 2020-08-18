@@ -92,11 +92,13 @@ VALUES
 (02,04,08,09,45,77,05,06,14,16);
 SELECT * FROM game;
 --13. Update player table
+UPDATE player
+SET name='purnima'
+WHERE id=06;
 
---14. Update player table
-UPDATE player SET id=6
-WHERE country='kolad';
 SELECT * FROM player;
+--14. Update player table
+
 --15. Update player table
 
 --16. Update player table
